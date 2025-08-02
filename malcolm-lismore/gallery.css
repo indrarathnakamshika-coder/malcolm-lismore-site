@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --peach:#e7cccc;
+    --butter:#ede8dc;
+    --green:#a5b68d;
+    --sage:#c1cfa1;
+
+}
+
+body{
+    margin: 0;
+    font-family: century;
+    background-image: #f1f0ec;
+    
+    
+}
+
+header a{
+    text-decoration: none;
+    color: #694802;
+
+}
+
+header{
+    display: flex;
+    padding: 15px;
+
+}
+
+#logoname{
+    font-size: 30px;
+    padding-left: 20px;
+
+}
+
+nav{
+    flex: 8;
+    display:flex;
+    
+}
+
+nav a{
+    flex: 5;
+    width: 2px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 150px;
+    margin: auto;
+    font-weight: bold;
+    
+}
+
+.portrait{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-row-gap: 70px;
+    padding-left: 100px;
+    width: 100%;
+    background: linear-gradient(to bottom, #e7cccc, #ede8dc );
+}
+
+.portrait img{
+    width: 60%;
+    height: 380px;
+    border: 1px solid var(--green);
+    border-radius: 10px;
+}
+
+
+.headportrait{
+    color: #1c2f02;
+    padding-top: 5px;
+    padding-bottom: 90px;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #f6d0d0;
+    text-decoration:double underline;
+    text-align: center;
+}
+
+.portraitaddimage{
+    width: 60%;
+    height: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #9d9797aa;
+}
+
+.para1{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.landscape{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-row-gap: 70px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: linear-gradient(to bottom, #a5b68d, #ede8dc);
+}
+
+.landscape img{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #315202;
+    border-radius: 10px;
+}
+
+
+.headlandscape{
+    color: #013204;
+    padding-top: 5px;
+    padding-bottom: 90px;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #a6b995;
+    text-decoration:double underline;
+    text-align: center;
+}
+
+.landscapeaddimage{
+    width: 70%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #9d9797aa;
+}
+
+.para1{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.wildlife{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-row-gap: 70px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: linear-gradient(to bottom, #9c6b6b, #FFE5AD);
+}
+
+.wildlife img{
+    width: 70%;
+    height: 300px;
+    border: 1px solid var(--whitesmoke);
+    border-radius: 10px;
+}
+
+
+.headwildlife{
+    color: var(--coffee);
+    padding-top: 5px;
+    padding-bottom: 90px;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #a37676;
+    text-decoration:double underline;
+    text-align: center;
+}
+
+.wildlifeaddimage{
+    width: 70%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #9d9797aa;
+}
+
+.para1{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.wedding{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-row-gap: 70px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: linear-gradient(to bottom, #5f9c62, #e2dddf);
+}
+
+.wedding img{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #1c2f02;
+    border-radius: 10px;
+}
+
+
+.headwedding{
+    color:#013204 ;
+    padding-top: 5px;
+    padding-bottom: 90px;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #599f5f;
+    text-decoration:double underline;
+    text-align: center;
+}
+
+.weddingaddimage{
+    width: 60%;
+    height: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #9d9797aa;
+}
+
+.para1{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.macro{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-row-gap: 70px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: linear-gradient(to bottom, #a46679, #ebe8e2);
+}
+
+.macro img{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #691c1c;
+    border-radius: 10px;
+}
+
+
+.headmacro{
+    color: #691c1c;
+    padding-top: 5px;
+    padding-bottom: 90px;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #a46679;
+    text-decoration:double underline;
+    text-align: center;
+}
+
+.macroaddimage{
+    width: 60%;
+    height: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #918484aa;
+}
+
+.para1{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
