@@ -1,0 +1,101 @@
+
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1400px;
+    height: 70px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 600px;
+    float: left;
+    height: 150px;
+
+}
+
+.logo{
+    color: #000000;
+    font-size: 24px;
+    font-family: century;
+    padding-right: 250px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 500px;
+    float: left;
+    height: 100px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 18px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: century;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: #a52a2a;
+}
+
+.content{
+    width: 550px;
+    height: 100%;
+    margin: left;
+    color: #fff;
+    position: relative;
+
+}
+
+.content .par{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-family: century;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: century;
+    font-size: 50px;
+    padding-left: 0px ;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+
+
+.content span{
+    color: #000000;
+    font-size: 60px;
+}
+
+

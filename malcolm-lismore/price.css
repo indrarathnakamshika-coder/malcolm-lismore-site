@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+:root {
+    --brown: #3e2f1c;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #ae7b4b;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#logoname {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ce9a3f;
+}
+
+.head2 h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 30px 0;
+    color: #333;
+}
+
+.price {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+.price img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.price p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #116A7B;
+    margin: 10px 0;
+}
+
+.potrait, .macro, .landscape, .wedding, .wild {
+    background-color: rgba(216, 227, 231, 0.5);
+    border: 5px solid #126E82;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #116A7B;
+    color: white;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #0c5e6a;
+}
