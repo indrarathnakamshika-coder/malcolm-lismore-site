@@ -38,7 +38,11 @@ This is a fully responsive photography website with pages for pricing, gallery, 
 ```
 
 ## 🖼 Sample Screenshot
-*(Add screenshots of your homepage and price list here)*
+![Home Page](MalcolmScreenshots/home.png)
+![About page](MalcolmScreenshots/about.png)
+![Portfolio page](MalcolmScreenshots/portfolio.png)
+![Gallery page](MalcolmScreenshots/gallery.png)
+![Contact page](MalcolmScreenshots/contact.png)
 
 ## 🔖 License
 MIT License
